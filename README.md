@@ -3,7 +3,7 @@ Python Class
 
 Sunlight's 2014 Summer Python class
 
-#Syllabus
+# Syllabus
 * [First class](#first-class): variables, types, list, dictionary
 * [Second class](#second-class):  data types, data structures, conditional, user input, command line
 * [Third class](#third-class): command line, loops, range
@@ -45,7 +45,7 @@ Python is a free, open source language. For the beginning of the class we are go
 
 (If you missed this class, you can do the PythonAnywhere tutorial on the website.)  
 
-###Objects
+### Objects
 
 In Python, we work with objects. Thiat means we create, store and change objects in our programs. Useful objects are things like numbers and words. As we continue, we will make much more complex objects, but lets start with the basics. (See the [python documantation](https://docs.python.org/2/library/types.html) if you want to sneek a peek.)
 
@@ -62,7 +62,7 @@ In that code, we assigned the value, "Hello" to the variable name greeting. When
 
 We can create many objects for our programs that you can think of as numbers and words, but computers need a lot more specificity. So, in this case, we are talking about three types of objects in python. 
 
-###Types
+### Types
 * integer- think of this as a whole number; no decimals. You can do math with this type of object but if you need the precision of decimals, say if you are doing division, don't use this because the computer will keep rounding the numbers to make them whole.
 * float- think of this as a decimal number. these are good for doing math.
 * string- think of strings as a collection of characters. These can be letters, numbers or symbols. If you have numbers as a string type, you can't do math with them. When you create a string, use single or double quotes. That was why "Hello" was quoted in the first example.
@@ -102,10 +102,10 @@ Now, in the python shell, we will use some functions to find out what type an ob
 
 ```
 
-##data structures
+## Data structures
 Lists and dictions are to ways to store your objects in a python program. You can think about lists as organized by the order of the objects and dictionaries as organized by the name of the object.
 
-###Lists
+### Lists
 
 Here are some things to know about lists:
 * lists are ordered
@@ -140,7 +140,7 @@ I will add comments using `#`. In python, anything after the hash mark will not 
 ['cat', 'dog', 'bird', 'bunny', 'turtle', 'fish']
 ``` 
 
-###Dictionaries
+### Dictionaries
 
 In the dictionaries you are used to, the information is organized by the word. Each word is paired with a definition. In Python dictionaries, you find each value by looking up its key.
 
@@ -170,7 +170,7 @@ Let's look at an example of using a dictionary:
 >>> 
 ```
 
-###Homework-
+### Homework-
 [Homework inspired by Nicko](http://sunlightfoundation.com/blog/2010/12/02/sunlights-political-action-committee-pac-name-generator/)
 
 print a super PAC name using list indexes. Here is your list:
@@ -185,7 +185,7 @@ See [class code](https://github.com/LindsayYoung/python-class/blob/master/lesson
 # Second Class!
 06/18/2014
 
-###Data types
+### Data types
 * string - letters or numbers as text
 * int - integer number
 * float - decimal number
@@ -195,9 +195,9 @@ new data type:
 * boolean - that is just a fancy way to say things that are `True` or `False`
 
 
-###Data Structures
+### Data Structures
 
-###lists
+### Lists
 * lists are ordered
 * use brackets [ ]
 * add to the list with `.append()`
@@ -225,7 +225,7 @@ example:
 [4, 3, 2, 6, 1, 5]
 ```
 
-###dictionaries
+### Dictionaries
 * key value pairs
 * use curly braces { } (we decided curly braces look like open dictionary books)
 * lookup by key
@@ -245,9 +245,9 @@ example:
 >>> print(my_dictionary)
 {'DE': 'Delaware', 'PA': 'Pennsylvania'}
 ```
-###flow control
+### Flow control
 
-###conditional statements
+### Conditional statements
 We can check if something is true or false and make our program respond differently 
 
 Here are some helpful operators to make comparisons
@@ -302,7 +302,7 @@ else:
 ```
 Here is another example dedicated to Caitlin 
  
-###Take user input
+### Take user input
 `raw_input()`
 We generally make programs and want them to respond to people and the real world. `raw_input()` will take a value from the user that you can use in your program. 
 * add directions as a string in the parenthesis so you user knows what to do
@@ -319,7 +319,7 @@ Let's look at:
 ###[lesson 2 code](https://github.com/LindsayYoung/python-class/blob/master/lesson-2/states.py)
 
 We also covered terminal and file systems because PythonAnywhere was down:
-###Command line
+### Command line
 
 (Most of us Mac users used a Bash Terminal)
 
@@ -352,7 +352,7 @@ Here's another resource, [Command Line Crash Corse](http://cli.learncodethehardw
 ***
 # Third Class!
 07/02/2014
-###Command line review
+### Command line review
 
 The comand line is a way of operating system without GUI. GUI stands for grapical user interface and it is the point and click way that you are used to using a computer.
 
@@ -441,7 +441,7 @@ See the code we made during class [here].(https://github.com/LindsayYoung/python
 ***
 # Fourth Class!
 07/09/2014
-###Functions
+### Functions
 Functions are contained, reusable bits of code.
 
 We have been using built-in functions. We give them inputs and they run a program (that we don't see) and return an output. Here are some useful functions:
@@ -559,7 +559,7 @@ Lets get started, [here](https://github.com/LindsayYoung/python-class/blob/maste
 ***
 # Fifth Class! 
 07/16/2014
-###Files
+### Files
 We have been using one file to write our programs. Now, we will be able to use many files for our programs.
 
 Here is a simple way to read a file. Let's start with a text file named sample.txt that says, "Hello! This is a sample document that we will read."
@@ -614,7 +614,7 @@ For reference, the 'w' was for write, but there are other commands that are usef
 'a' opens the file for appending; any data written to the file is automatically added to the end. 
 'r+' opens the file for both reading and writing.
 
-###CSV
+### CSV
 The `.csv` files are basically spreadsheets. You can make a csv by using excel or other spreadsheet program and saving the file as csv. (Be careful because some of the extra features you are used to like, highlighting and links, will not be saved.)
 
 `csv` stands for comma separated values. These files are great because of their simplicity. 
@@ -794,7 +794,7 @@ Also, See all the Sunlight API's [here](http://sunlightfoundation.com/api/)
 # Eighth Class!
 08/06/2014
 
-###API to csv
+### API to csv
 
 The first part of class will be some additional API and csv practice and then we will talk about project groups.
 
@@ -806,7 +806,7 @@ Then, we can alter the script to ask for user input so it will work for any API 
 
 [Here](https://github.com/LindsayYoung/python-class/blob/master/lesson-8/capitol_words.py) is the sample code. 
 
-###Projects!
+### Projects!
 
 Let's have a discussion of how we are going to divide ourselves into project groups and what we are going to work on. 
 
@@ -814,7 +814,7 @@ Let's have a discussion of how we are going to divide ourselves into project gro
 # Tenth Class!
 08/20/2014
 
-###Flask
+### Flask
 
 This class will introduce the web microframework called Flask. We will cover instantiating the Flask class, python decorators, routes, templates, GET and POST requests, and how to structure your project directory. The class will more or less follow the Flask quickstart guide in the official documentation [http://flask.pocoo.org/docs/quickstart/](http://flask.pocoo.org/docs/quickstart/) leaving out the database hookup for next week.
 
@@ -823,7 +823,7 @@ The only package you'll need to install is flask: `pip install flask`
 Flask uses a templating language called Jinja2 which is inspired from Django's templating language. You can read more about the syntax for this language at the official site [http://jinja.pocoo.org/](http://jinja.pocoo.org/).
 
 ***
-#Additional resources
+# Additional resources
 
 The official Python documentation: 
 * [http://docs.python.org/](http://docs.python.org/)
